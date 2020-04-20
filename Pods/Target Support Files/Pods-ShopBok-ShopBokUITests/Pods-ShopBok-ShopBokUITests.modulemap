@@ -1,0 +1,6 @@
+framework module Pods_ShopBok_ShopBokUITests {
+  umbrella header "Pods-ShopBok-ShopBokUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
