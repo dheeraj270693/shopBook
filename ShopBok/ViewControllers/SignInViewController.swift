@@ -40,7 +40,7 @@ class SignInViewController: UIViewController {
             signMeIn()
         }
     }
-    
+    // sign in method
     func signMeIn(){
         guard let myCode = code.text else{ return }
         
