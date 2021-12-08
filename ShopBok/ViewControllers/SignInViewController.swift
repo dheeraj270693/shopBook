@@ -26,12 +26,11 @@ class SignInViewController: UIViewController {
                     UserDefaults.standard.set(verificationID, forKey: "verificationID")
                 } else{
                     print("there was something wrong \(error!.localizedDescription)")
-                    
                 }
             }
         }
-        
     }
+    
     @IBAction func signInBtnClicked(_ sender: UIButton) {
         if phoneNumber.text == "" && code.text == ""
         {
@@ -93,7 +92,6 @@ class SignInViewController: UIViewController {
                     UserDefaults.standard.set(encoded, forKey: "currentProfile")
                 }
             }
-            
         }
     }
     
