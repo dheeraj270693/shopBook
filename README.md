@@ -1,5 +1,7 @@
 # shopBook
 
+ShopBook app is for all the shops to go online and have their online platform. One platform for all shops.
+
 ## Version
 
 1.0
